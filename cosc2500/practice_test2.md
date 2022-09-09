@@ -53,13 +53,13 @@ Raspbian is the working OS based on Linux that we use for whatever purpose you w
 # Q5: Network Model
 In the OSI model of network transmission, there are 7 layers namely in order: Application, Presentation, Session, Transport, Network, Datalink, and Physical. Describe the process of layering (data go through each layer) with an example application.
 
-1. Application: Provides a human-friendly interface for end user to access functions and services withing the OSI environment.
-2. Presentation: Defines the format in which data is to be exchanged on the network (encoding). Also deals with encryption/decryption and data compression.
-3. Session: Defines how to start, control, and end communication sessions between two applications.
-4. Transport: Provides a reliable mechanism for the exchange of data between two processes in different computers using error control and flow control.
-5. Network: Finds the best physical path for information to travel from source to destination endpoints.
-6. Datalink: Ensures a reliable transmission of information across a physical connection by implementing data frames with synchronization, error control, and flow control.
-7. Physical: Deals with electrical procedures to transmit unstructed bit stream using physical medium (wires).
+1. **Application**: Provides a human-friendly interface for end user to access functions and services withing the OSI environment.
+2. **Presentation**: Defines the format in which data is to be exchanged on the network (encoding). Also deals with encryption/decryption and data compression.
+3. **Session**: Defines how to start, control, and end communication sessions between two applications.
+4. **Transport**: Provides a reliable mechanism for the exchange of data between two processes in different computers using error control and flow control.
+5. **Network**: Finds the best physical path for information to travel from source to destination endpoints.
+6. **Datalink**: Ensures a reliable transmission of information across a physical connection by implementing data frames with synchronization, error control, and flow control.
+7. **Physical**: Deals with electrical procedures to transmit unstructed bit stream using physical medium (wires).
 
 
 # Q6: Network Access
