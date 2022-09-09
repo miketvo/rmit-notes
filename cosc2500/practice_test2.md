@@ -45,10 +45,24 @@ void loop() {
 # Q4: Raspberry Pi
 What are NOOBS and Raspbian OS? Is there any difference between the two? Explain.
 
-NOOBS is an OS installer. We download and install NOOBS so that it can install the an operating system on the Raspberry Pi (Raspbian or other).
+NOOBS is an OS installer/wizard that allows us to install an operating system on an SD card (Raspbian or other).
 
-Raspbian is the working OS that you use for whatever purpose you want. You can install Raspbian directly from an image (not using NOOBS).
+Raspbian is the working OS based on Linux that we use for whatever purpose you want. We can install Raspbian on an SD card directly from an image (not using NOOBS).
 
 
 # Q5: Network Model
 In the OSI model of network transmission, there are 7 layers namely in order: Application, Presentation, Session, Transport, Network, Datalink, and Physical. Describe the process of layering (data go through each layer) with an example application.
+
+1. Application: Provides a human-friendly interface for end user to access functions and services withing the OSI environment.
+2. Presentation: Defines the format in which data is to be exchanged on the network (encoding). Also deals with encryption/decryption and data compression.
+3. Session: Defines how to start, control, and end communication sessions between two applications.
+4. Transport: Provides a reliable mechanism for the exchange of data between two processes in different computers using error control and flow control.
+5. Network: Finds the best physical path for information to travel from source to destination endpoints.
+6. Datalink: Ensures a reliable transmission of information across a physical connection by implementing data frames with synchronization, error control, and flow control.
+7. Physical: Deals with electrical procedures to transmit unstructed bit stream using physical medium (wires).
+
+
+# Q6: Network Access
+What is the role of Quality of Service (QoS) in a converged network? How QoS is notable internet trends as intelligent?
+
+In a converged network, QoS controls the system resources of the network to ensure that critical services/applications get prioritized routing when network capacity is limited.
